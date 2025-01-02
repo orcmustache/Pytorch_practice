@@ -12,7 +12,9 @@ dot_X_w1
 dot_X_w2 = X[0] * w2[0] + X[1] * w2[1]
 dot_X_w2
 # %%
-np.dot(X, w1)
+t1= np.dot(X, w1)
+print(t1)
 # %%
-np.dot(X, w2)
+t2=np.dot(X, w2)
+print(t2)
 # %%
